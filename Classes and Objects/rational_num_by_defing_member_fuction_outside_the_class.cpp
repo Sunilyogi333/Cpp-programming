@@ -14,15 +14,14 @@ void Rational::inputrational()
     cout<<"Enter the numerator and denominator"<<endl;
     cin>>num>>den;
 }
-void Rational::inputrational()
+void Rational::displayrational()
 {
     cout<<"The rational number is: "<<num<<"/"<<den<<endl;
 }
-void main()
+int main()
 {
-    float r,l,b;
-    cout<<"Enter the radius of circle"<<endl;
-    cin>>r;
-    cout<<"Enter the length and breath of rectangle"<<endl;
-    cin>>l>>b;
+    Rational R;
+    R.inputrational();
+    R.displayrational();
+    return 0;
 }
