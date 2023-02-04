@@ -36,6 +36,17 @@ public:
     operator Polar()
     {
         float r= sqrt(pow(xco,2)+pow(yco,2));
-        float y= 
+        float a= atan(yco/xco);
+        return Polar(r,a);
     }
 };
+int main()
+{
+    Rectangular R(7.07107, 7.07107);
+    R.display();
+    Polar P;
+    P=R;
+    cout<<"After Conversion, Polar coodinates are: "<<endl;
+    P.display();
+    return 0;
+}
