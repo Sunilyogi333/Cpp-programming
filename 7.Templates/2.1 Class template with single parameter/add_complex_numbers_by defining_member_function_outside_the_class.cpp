@@ -24,15 +24,15 @@ void Complex<T>::display()
     cout<<real<<"+ i"<<img<<endl;
 }
 template<class T>
-void Complex<T>::addComplex(Complex T1, Complex T2)
+void Complex<T>::addComplex(Complex c1, Complex c2)
 {
-    real=T1.real+T2.real;
-    img=T1.img+T2.img;
+    real=c1.real+c2.real;
+    img=c1.img+c2.img;
     cout<<real<<"+ i"<<img<<endl;
 }
 int main()
 {
-    Complex<int>C1(3,7),C2(6,8);
+    Complex<int>C1(3,7),C2(7,8);
     C1.display();
     C2.display();
     cout<<"After Addition"<<endl;
