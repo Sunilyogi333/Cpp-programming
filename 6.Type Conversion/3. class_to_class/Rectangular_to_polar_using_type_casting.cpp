@@ -42,7 +42,7 @@ int main()
 {
     Rectangular R(7.07107,7.07107);
     R.display();
-    Polar P;kc
+    Polar P;
     P=R;
     cout<<"After conversion"<<endl;
     P.display();

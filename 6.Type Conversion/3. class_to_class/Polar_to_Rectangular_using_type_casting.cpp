@@ -44,6 +44,6 @@ int main()
     P.display();
     Rectangular R;
     R=P;
-    R.display()
+    R.display();
     return 0;
 }
