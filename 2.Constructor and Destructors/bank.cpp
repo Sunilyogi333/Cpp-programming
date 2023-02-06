@@ -1,4 +1,5 @@
 #include<iostream>
+//#include<cstring> or
 #include<string.h>
 using namespace std;
 class Bank
