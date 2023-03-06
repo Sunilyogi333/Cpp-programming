@@ -55,8 +55,7 @@ public:
 };
 int main()
 {
-    Book *B;
-    Tape *T;
+    Media *B, *T;
     B = new Book("Rich dad Poor Dad", 450, 500);
     T = new Tape("Intelligent Investor", 700, 5);
     B->display();
